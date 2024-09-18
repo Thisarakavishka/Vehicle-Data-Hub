@@ -1,0 +1,11 @@
+id,first_name,last_name,email,car_make,car_model,vin,manufactured_date
+1,John,Doe,johndoe@example.com,Toyota,Corolla,1HGCM82633A123456,2015-06-01
+2,Jane,Smith,janesmith@example.com,Honda,Civic,2HGCM82633A654321,2018-07-15
+3,Bob,Johnson,bobjohnson@example.com,Ford,Mustang,1FTFW1ET4EFA12345,2020-03-10
+4,Alice,Brown,alicebrown@example.com,Chevrolet,Malibu,1N4AL3AP7FN912345,2019-11-05
+5,Michael,Davis,michaeldavis@example.com,Nissan,Altima,1G1ZB5STXGF123456,2017-01-23
+6,Emma,Wilson,emmawilson@example.com,Hyundai,Elantra,KMHDH4AE1EU123456,2016-09-14
+7,Chris,Miller,chrismiller@example.com,Volkswagen,Golf,WVWRF7AJ5DW123456,2014-05-19
+8,Olivia,Taylor,oliviataylor@example.com,BMW,X5,5UXWX9C5XBL123456,2021-08-30
+9,David,Anderson,davidanderson@example.com,Audi,A4,WAUKF68E35A123456,2013-12-07
+10,Sophia,Thomas,sophiathomas@example.com,Mercedes,C-Class,WDDGF8AB4DR123456,2022-02-18

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/vehicle-data-hub/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/vehicle-data-hub/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/vehicle-data-hub",
+  "projects": {
+    "vehicle-data-hub": {
+      "type": "application",
+      "root": "apps/vehicle-data-hub",
+      "entryFile": "main",
+      "sourceRoot": "apps/vehicle-data-hub/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/vehicle-data-hub/tsconfig.app.json"
+      }
+    },
+    "upload-service": {
+      "type": "application",
+      "root": "apps/upload-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/upload-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/upload-service/tsconfig.app.json"
+      }
+    },
+    "process-service": {
+      "type": "application",
+      "root": "apps/process-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/process-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/process-service/tsconfig.app.json"
+      }
+    },
+    "vehicle-service": {
+      "type": "application",
+      "root": "apps/vehicle-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/vehicle-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/vehicle-service/tsconfig.app.json"
+      }
+    },
+    "notification-service": {
+      "type": "application",
+      "root": "apps/notification-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/notification-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/notification-service/tsconfig.app.json"
+      }
+    },
+    "export-service": {
+      "type": "application",
+      "root": "apps/export-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/export-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/export-service/tsconfig.app.json"
+      }
+    }
+  }
+}
